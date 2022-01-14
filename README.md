@@ -83,5 +83,13 @@ Used date-time local for end date, so user have to select start and end date whi
 
 for now I am check if user has left any input field empty or not
 
+## Some Pointers to consider
+
+### Site is responsive
+
+### Hiding some images for responsiviness
+
+### Not using any CSS library like bootstrap, material ui and Tailwind (Just to have more flexibility)
+
 
 
