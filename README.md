@@ -69,17 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Assumption made during development
+## Assumption made during development
 
-## Select options
+### Select options
 
 Wasn't able to utilize img next to the crypto-currency so just have used the common text example BTC, BNB
 
-## Lot End date 
+### Lot End date 
 
 Used date-time local for end date, so user have to select start and end date which will be more easy for user to understand that they have to select a higer date `No validation for now`
 
-## Form validation 
+### Form validation 
 
 for now I am check if user has left any input field empty or not
 
