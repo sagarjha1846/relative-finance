@@ -1,13 +1,295 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,html,#root{
+  width: 100%;
+  height: 100%;
+  background-color: #121129;
+  font-family: 'Rubik', sans-serif
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.sidebar{
+  background-color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.logo{
+  height: 20%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.logo>img{
+  height: 70px;
+}
+
+.big-logo{
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.big-logo>img{
+  height: 300px;
+  height: 200px;
+  
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.flex-btn{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.flex-btn>button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px 10px;
+  width: 80px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.flex-btn>button:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+form{
+  width: 65%;
+  height: 80%;
+  padding: 10px;
+ 
+}
+
+.field{
+  padding: 10px;
+  background-color: #241D47;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid #4A3880;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap;
+
+  align-content: center;
+  
+}
+
+.field>div{
+  padding: 10px 20px;
+  flex-wrap: wrap;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: center;
+  align-content: center;
+  text-align: left;
+  
+}
+
+label{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+input{
+  width: 100%;
+  padding: 13px;
+  font-family: 'Rubik', sans-serif;
+  background-color: #151330;
+  border-radius: 10px;
+  border: 1px solid #4A3880;
+  font-weight: bold;
+  color: white;
+}
+.header{
+  width: 50%;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  color: white;
+  border-bottom: 2px solid #4A3880;
+}
+
+.header>img{
+  padding-right: 20px;
+}
+
+select{
+  font-family: 'Rubik', sans-serif;
+  width: 200px;
+  padding: 10px ;
+  text-align: left;
+  background-color: #151330;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #151330;
+}
+
+.btn{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.img>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.btn>button{
+  font-family: 'Rubik', sans-serif;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  background-color: #47189E;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border:1px solid #4A3880;
+  font-weight: bold;
+  color: white;
+}
+
+.btn>button>img{
+  padding-right: 10px;
+  
+}
+
+
+.btn>button>p{
+  color: white;
+  font-weight: bold;
+  
+}
+
+@media screen and (max-width: 995px){
+  .App{
+   display: flex;
+  }
+
+  .sidebar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    height: auto;
+  }
+
+  .logo>img{
+    height: 50px;
+  }
+  .big-logo>img{
+    display: none;
+    
+  }
+  .main,.form{
+    margin: 10px 0px;
+  }
+  form{
+    width: 100%;
+  }
+  .field,.header{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .header{
+    width: 80%;
+  }
+
+  .header>h1{
+    font-size: 20px;
+  }
+  .header>img{
+    padding-right: 10px;
+  }
 }
