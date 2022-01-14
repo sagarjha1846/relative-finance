@@ -135,7 +135,15 @@ form{
   flex-wrap: wrap;
 
   align-content: center;
+  position: relative;
   
+}
+
+.float{
+  position: absolute;
+  color: white;
+  top: 0;
+  right: 0;
 }
 
 .field>div{
