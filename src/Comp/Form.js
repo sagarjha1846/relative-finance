@@ -56,6 +56,9 @@ function Form() {
       </div>
       <form>
         <div className="field">
+          <div className="float">
+            <i class="fas fa-info-circle"></i>
+          </div>
           <div className="input-field">
             <label>Token 01</label>
             <select
@@ -89,6 +92,9 @@ function Form() {
           </div>
         </div>
         <div className="field">
+          <div className="float">
+            <i class="fas fa-info-circle"></i>
+          </div>
           <div className="input-field">
             <label>Starts On</label>
             <input
@@ -112,6 +118,9 @@ function Form() {
           </div>
         </div>
         <div className="field">
+          <div className="float">
+            <i class="fas fa-info-circle"></i>
+          </div>
           <div className="input-field">
             <label>Initial Deposit</label>
             <input
